@@ -1,7 +1,7 @@
 ({
     baseUrl: "src",
     name: "main",
-    out: "main-built.js",
+    out: "main-cdn.js",
     preserveLicenseComments: false,
     findNestedDependencies: true,
     paths: {
