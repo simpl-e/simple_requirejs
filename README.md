@@ -1,0 +1,1 @@
+# simple_requirejs_configrations
