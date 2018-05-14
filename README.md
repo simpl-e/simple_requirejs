@@ -2,7 +2,7 @@
 
 ## Dynamic usage
 
-main.js
+#### main.js file:
 ```js
 require(['main-remote.js'], function () {
 
@@ -24,7 +24,7 @@ require([
 
 ## Bundle usage
 
-#### app.buils.js
+#### app.buils.js file:
 ```js
 ({
     baseUrl: "src",
@@ -54,7 +54,7 @@ require([
 })
 ```
 
-#### bundle:
+#### r.js bundle:
 ```js
 r.js -o app.build.js
 ```
