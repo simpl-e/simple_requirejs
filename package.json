@@ -1,5 +1,5 @@
 {
-    "name": "simple_requirejs_configurations",
+    "name": "simple_requirejs",
     "description": "Requirejs main.js predefined files for cdn and bundle",
     "main": "src/simple_main.js",
     "author": "simple_",
