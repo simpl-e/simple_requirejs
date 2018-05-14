@@ -28,6 +28,6 @@ require([
 Copy `src/app.buils.js` for full bundle or `src/cdn.app.buils.js` for keep CDN imports to your root project
 
 #### Run r.js bundle:
-```js
+```sh
 r.js -o app.build.js
 ```
