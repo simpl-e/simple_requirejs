@@ -1,4 +1,4 @@
-# simple_ Requirejs Configrations
+# simple_ Requirejs Configurations
 
 ## Dynamic usage
 
