@@ -1,0 +1,26 @@
+{
+    "name": "simple_requirejs_configurations",
+    "description": "Requirejs main.js predefined files for cdn and bundle",
+    "main": "src/simple_main.js",
+    "author": "simple_",
+    "license": "MIT",
+    "devDependencies": {
+        "animate": "^1.0.0",
+        "animate.css": "^3.6.1",
+        "axios": "^0.18.0",
+        "bootstrap": "^4.1.1",
+        "bootstrap-material-design": "^4.1.1",
+        "bootstrap-notify": "^3.1.3",
+        "font-awesome": "^4.7.0",
+        "gulp": "^3.9.1",
+        "jquery": "^3.3.1",
+        "popper.js": "^1.14.3",
+        "require-css": "^0.1.10",
+        "require-vuejs": "^1.1.0",
+        "requirejs": "^2.3.5",
+        "requirejs-text": "^2.0.15",
+        "sweetalert": "^2.1.0",
+        "update": "^0.7.4",
+        "vue": "^2.5.16"
+    }
+}
