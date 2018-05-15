@@ -39,8 +39,8 @@ define(function () {
         },
         shim: {
             notify: ["jquery"],
-            bootstrap: ["jquery"],
-            bootstrapMD: ["jquery", "bootstrap", "popper-global"]
+            //bootstrap: ["jquery"],
+            bootstrapMD: ["jquery", "popper-global"]
         },
         exclude: ["css/normalize"],
         catchError: true
