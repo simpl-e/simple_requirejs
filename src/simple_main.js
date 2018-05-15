@@ -78,7 +78,8 @@ define(function () {
         "text",
         "css",
         "vue",
-        "bootstrap"
+        //"bootstrap"
+        "bootstrapMD"
     ]);
 
 });
