@@ -1,6 +1,7 @@
 {
     "name": "simple_requirejs",
     "description": "Requirejs main.js predefined files for cdn and bundle",
+    "version": "0.1.0",
     "main": "src/simple_main.js",
     "author": "simple_",
     "license": "MIT",
