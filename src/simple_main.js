@@ -65,16 +65,16 @@ define(function () {
         "jquery",
         "vue-global",
         "axios-global",
-        "notify"
+        "notify",
+        //"bootstrap"
+        "bootstrapMD"
     ]);
 
     // NOT ESSENTIAL AND/OR DELAYABLE LIBS
     requirejs([
         "text",
         "css",
-        "vue",
-        //"bootstrap"
-        "bootstrapMD"
+        "vue"
     ]);
 
 });
