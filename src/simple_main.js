@@ -15,6 +15,7 @@ define(function () {
             //bootstrap: "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle",
             bootstrapMD: "https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design",
             axios: "https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min",
+            popper: "https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js",
             bootstrap_notify: "https://cdnjs.cloudflare.com/ajax/libs/mouse0270-bootstrap-notify/3.1.7/bootstrap-notify.min",
             sweetalert: "https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min",
             // CSS
@@ -55,7 +56,7 @@ define(function () {
         window.axios = axios;
     });
     //seems bugged bootstrap-material-design popper.js
-    define("popper.js", ["https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"], function(popper){
+    define("popper.js", ["popper"], function(popper){
         window.Popper = popper;
         return popper;
     })
